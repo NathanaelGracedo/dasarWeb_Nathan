@@ -20,7 +20,8 @@ h2 {
 }
 
 body{
-    background: url('../Praktikum1/bunga2.jpg');
-    color: #fff;
+    background: url('img/tree1.jpg.jpg'), url('img/field1.jpg');
+    background-repeat: no-repeat, repeat;
+    color: white;
 }
 
