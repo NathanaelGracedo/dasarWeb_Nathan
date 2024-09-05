@@ -3,9 +3,13 @@
 }
 
 .link:hover{
-    color: greenyellow;
+    color: red;
 }
 
 .link:link{
     color: blue;
+}
+
+.link:visited{
+    color: greenyellow
 }
