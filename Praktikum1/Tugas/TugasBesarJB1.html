@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Tugas Besar JB1</title>
+</head>
+
+<body>
+    <form method="POST">
+        <fieldset>
+        <legend>Data Mahasiswa</legend>
+        <label for="nama">Nama</label>
+        <input type="text" name="nama" size="30"><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" size="30"><br><br>
+        <label for="ttl">Tanggal Lahir</label>
+        <input type="date" name="ttl"><br><br>
+        <label for="jk">Jenis Kelamin</label>
+        <select name="jk" size="1">
+            <option value="L" selected>Laki - Laki </option>
+            <option value="P">Perempuan</option>
+            <option value="biner">Tidak ingin menyebutkan</option>
+        </select>
+        <BR></BR>
+
+        <label for="alamat">Alamat</label><br>
+        <textarea name="address" id="adr"></textarea>
+        </fieldset>
+    <BR></BR>
+
+        <fieldset>
+        <legend>Komentar</legend>
+        <label for="darimana">Darimana anda mengetahui buku ini? </label>
+        <select name="src" id="src">
+            <option value="google" selected>Google</option>
+            <option value="ig">Instagram</option>
+            <option value="telegram">Telegram</option>
+            <option value="tiktok">Tiktok</option>
+        </select>
+        <BR></BR>
+        <label for="bagaimana">Bagaimana menurut anda buku ini? </label><br>
+        <input type="radio" name="pilihan1"> Biasa
+        <input type="radio" name="pilihan2"> Bagus
+        <input type="radio" name="pilihan3"> Menarik
+        <BR></BR>
+        <label for="komentar">Komentar</label><br>
+        <textarea name="komen" id="kmn"></textarea><BR></BR>
+        <input type="checkbox">
+        <label for="kirim">Kirim ke Email bila ada info tebaru</label>
+    </fieldset>
+    <BR></BR>
+
+    <center>
+        <input type="submit" name="krm" value="Kirim">
+    </center>
+    </form>
+</body>
+</html>
