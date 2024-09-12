@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Tugas Form</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" size="45" id="firstName"> <BR></BR>
+        <label for="lastName">last Name</label>
+        <input type="text" name="lastName" size="45" id="lastName"> <BR></BR>
+        <input type="submit" name="sbm" value="Submit" id="sbmbtn">
+        <script>
+            document.getElementById("sbmbtn").onclick = function() {
+            var firstName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+            if (firstName == "" || lastName == "") {
+                alert("Form tidak boleh kosong")
+                } else {
+                    window.location.href = "#"
+                    document.write("Selamat datang " + firstName + " " + lastName + " di Website Kami!")  
+                }
+            }
+        </script>
+    </body>
+</html>
