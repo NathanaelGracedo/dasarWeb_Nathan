@@ -25,11 +25,22 @@ $hasilLebihBesar = $a > $b;
 $hasilLebihKecilSama = $a <= $b;
 $hasilLebihBesarSama = $a >= $b;
 
-echo "Operator Pembanding:<br>";
-echo "Hasil Sama: {$hasilSama}<br>";
-echo "Hasil Tidak Sama: {$hasilTdkSama}<br>";
-echo "Hasil Lebih Kecil: {$hasilLebihKecil}<br>";
-echo "Hasil Lebih Besar: {$hasilLebihBesar}<br>";
-echo "Hasil Lebih Kecil Sama: {$hasilLebihKecilSama}<br>";
-echo "Hasil Lebih Besar Sama: {$hasilLebihBesarSama}<br>";
+echo "Operator Pembanding: <br>";
+echo "Hasil Sama: {$hasilSama} <br>";
+echo "Hasil Tidak Sama: {$hasilTdkSama} <br>";
+echo "Hasil Lebih Kecil: {$hasilLebihKecil} <br>";
+echo "Hasil Lebih Besar: {$hasilLebihBesar} <br>";
+echo "Hasil Lebih Kecil Sama: {$hasilLebihKecilSama} <br>";
+echo "Hasil Lebih Besar Sama: {$hasilLebihBesarSama} <br><br>";
+
+$hasilAnd = $a && $b;
+$hasilOr = $a || $b;
+$hasilNotA = !$a;
+$hasilNotB = !$b;
+
+echo "Operator Logika: <br>";
+echo "Hasil And: {$hasilAnd} <br>";
+echo "Hasil Or: {$hasilOr} <br>";
+echo "Hasil NotA: {$hasilNotA} <br>";
+echo "Hasil NotB: {$hasilNotB} <br>";
 ?>
