@@ -54,7 +54,7 @@ echo "Hasil A *= B = $a <br>";
 $a /= $b;
 echo "Hasil A /= B = $a <br>";
 $a %= $b;
-echo "Hasil A %= B = $a <br>";
+echo "Hasil A %= B = $a <br><br>";
 
 echo "Operator Identik: <br>";
 $hasilIdentik = $a === $b;
