@@ -42,5 +42,17 @@ echo "Operator Logika: <br>";
 echo "Hasil And: {$hasilAnd} <br>";
 echo "Hasil Or: {$hasilOr} <br>";
 echo "Hasil NotA: {$hasilNotA} <br>";
-echo "Hasil NotB: {$hasilNotB} <br>";
+echo "Hasil NotB: {$hasilNotB} <br><br>";
+
+echo "Operator Penugasan: <br>";
+$a += $b;
+echo "Hasil A += B = $a <br>";
+$a -= $b;
+echo "Hasil A -= B = $a <br>";
+$a *= $b;
+echo "Hasil A *= B = $a <br>";
+$a /= $b;
+echo "Hasil A /= B = $a <br>";
+$a %= $b;
+echo "Hasil A %= B = $a <br>";
 ?>
