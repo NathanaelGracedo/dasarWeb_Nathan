@@ -55,4 +55,11 @@ $a /= $b;
 echo "Hasil A /= B = $a <br>";
 $a %= $b;
 echo "Hasil A %= B = $a <br>";
+
+echo "Operator Identik: <br>";
+$hasilIdentik = $a === $b;
+echo "Hasil Identik = $hasilIdentik <br>";
+
+$tidakIdentik = $a !== $b;
+echo "Hasil Tidak Identik = $tidakIdentik <br>";
 ?>
