@@ -41,7 +41,7 @@ foreach ($skorUjian as $skor) {
     $totalSkor += $skor;
 }
 
-echo "Total skor ujian adalah: $totalSkor";
+echo "<br>Total skor ujian adalah: $totalSkor <br>";
 
 $nilaiSiswa = [85, 92, 58, 64, 90, 55, 88, 79, 70, 96];
 
