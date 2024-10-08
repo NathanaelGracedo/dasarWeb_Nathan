@@ -34,4 +34,15 @@
     } else {
         echo "Tidak ada yang cocok!";
     }
+
+    // Soal 5.5
+    $pattern = '/go?d/'; 
+    $text = 'god is good.';
+    if (preg_match($pattern, $text, $matches)) {
+        echo "<br>";
+        echo "Cocokkan: " . $matches[0];
+    } else {
+        echo "Tidak ada yang cocok!";
+    }
+
 ?>
