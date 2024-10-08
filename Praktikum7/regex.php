@@ -45,4 +45,14 @@
         echo "Tidak ada yang cocok!";
     }
 
+    // Soal 5.6
+    $pattern = '/go{1,2}d/';
+    $text = 'god is good.';
+    if (preg_match($pattern, $text, $matches)) {
+        echo "<br>";
+        echo "Cocokkan: " . $matches[0];
+    } else {
+        echo "Tidak ada yang cocok!";
+    }
+
 ?>
