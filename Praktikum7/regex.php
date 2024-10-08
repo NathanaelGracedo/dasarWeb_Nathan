@@ -24,4 +24,14 @@
     $new_text = preg_replace($pattern, $replacement, $text);
     echo "<br>";
     echo $new_text;
+
+    // Soal 5.4
+    $pattern = '/go*d/';
+    $text = 'god is good.';
+    if (preg_match($pattern, $text, $matches)) {
+        echo "<br>";
+        echo "Cocokkan: " . $matches[0];
+    } else {
+        echo "Tidak ada yang cocok!";
+    }
 ?>
