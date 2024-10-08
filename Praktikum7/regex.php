@@ -16,4 +16,12 @@
     } else {
         echo "Tidak ada yang cocok!";
     }
+
+    // Soal 5.3
+    $pattern =  '/apple/';
+    $replacement = 'banana';
+    $text = 'I like apple pie.';
+    $new_text = preg_replace($pattern, $replacement, $text);
+    echo "<br>";
+    echo $new_text;
 ?>
